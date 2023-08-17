@@ -1,0 +1,81 @@
+* {
+  font-family: "Handjet", cursive;
+  font-family: "Inconsolata", monospace;
+  font-family: "Orbitron", sans-serif;
+}
+body {
+  background-image: url(./images/bg-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px 0 40px 0;
+  color: #00ffd9;
+  text-shadow: 0 0 20px rgba(0, 226, 192, 0.7);
+}
+
+.entire-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sketch-border {
+  max-width: 850px;
+  max-height: 850px;
+  border-radius: 10px;
+  border: 10px solid #03a9f4;
+  box-shadow: 0 0 20px rgba(3, 169, 244, 0.7);
+}
+.sketch-container {
+  background: radial-gradient(#0a224e, #23074d);
+  display: flex;
+  flex-wrap: wrap;
+  height: 850px;
+  width: 850px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex-basis: 100%;
+}
+
+.reset,
+.size,
+.pink,
+.rainbow,
+.eraser {
+  background: radial-gradient(#ff6f00, #ff872c);
+  box-shadow: 0 0 10px rgba(255, 136, 0, 0.8);
+  color: #aa00ff;
+  justify-content: center;
+  font-size: 18px;
+  margin: 20px 40px 30px 40px;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+}
+
+button:hover {
+  background: radial-gradient(circle, #ff6f00, #ff66b2);
+  box-shadow: 0 0 20px rgba(255, 102, 178, 0.7);
+  transition: all 0.3s;
+  transform: scale(1.1);
+}
+
+.banner:hover {
+  text-shadow: 0 0 20px rgba(0, 255, 217, 0.815);
+  transition: all 0.3s;
+  transform: scale(1.1);
+}
